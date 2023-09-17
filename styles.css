@@ -44,6 +44,13 @@ nav a {
     border: 1px solid #ccc;
     padding: 20px;
     margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona sombreamento leve */
+    transition: box-shadow 0.3s ease; /* Efeito de transição suave para sombra */
+}
+
+/* Adiciona o efeito de sombreamento quando o cursor passar sobre os posts */
+.post:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 footer {
