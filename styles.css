@@ -4,6 +4,10 @@ body {
     padding: 0;
 }
 
+p, h2 {
+    color: #fff;
+}
+
 header {
     background-color: #2e6eee;
     color: #fff;
@@ -44,18 +48,18 @@ nav a {
     border: 1px solid #2e6eee;
     padding: 20px;
     margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 2); /* Adiciona sombreamento leve */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 2); /* Adiciona sombreamento leve */
     transition: box-shadow 0.3s ease; /* Efeito de transição suave para sombra */
 }
 
 /* Adiciona o efeito de sombreamento quando o cursor passar sobre os posts */
 .post:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 footer {
-    background-color: #333;
+    background-color: #2e6eee;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
