@@ -96,7 +96,7 @@ nav a {
     left: 0; /* Posiciona a imagem no canto esquerdo */
     top: 0; /* Opcional: posiciona a imagem no canto superior */
     width: 250px; /* Largura da imagem */
-    height: auto; /* Mantém a proporção da imagem */
+    height: 200px; /* Mantém a proporção da imagem */
 }
 
 
