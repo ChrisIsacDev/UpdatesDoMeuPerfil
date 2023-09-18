@@ -55,16 +55,27 @@ nav li {
 
 /* Adiciona uma animação de transição quando o mouse passa sobre os elementos li */
  .skills:hover {
-    background-color: #3175fd;
-    transform: scale(1.00);
+    background-color: #3b89ff;
+    transform: scale(1.05);
 }
 
 
+/* Estilização dos links dentro da barra de navegação */
 nav a {
     text-decoration: none;
     color: #fff;
-    margin-top: 0%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #4267B2;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
+
+/* Adiciona uma animação de transição quando o mouse passa sobre os links */
+nav a:hover {
+    background-color: #334b8c;
+    transform: scale(1.05);
+}
+
 
 .profile-info img {
     width: 100px;
