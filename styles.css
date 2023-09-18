@@ -43,7 +43,8 @@ nav li {
 
 /* Estilização dos elementos li como botões retangulares */
 .skills {
-    margin-right: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
     background-color: #2e6eee;
     color: #fff;
     padding: 5px 10px;
@@ -83,6 +84,21 @@ nav a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 2); /* Adiciona sombreamento leve */
     transition: box-shadow 0.3s ease; /* Efeito de transição suave para sombra */
 }
+
+/* Estilização para alinhar uma imagem no canto esquerdo das categorias */
+.post {
+    position: relative; /* Necessário para posicionar elementos filhos de forma absoluta */
+    padding-left: 120px; /* Define um espaço à esquerda para a imagem */
+}
+
+.post img {
+    position: absolute;
+    left: 0; /* Posiciona a imagem no canto esquerdo */
+    top: 0; /* Opcional: posiciona a imagem no canto superior */
+    width: 100px; /* Largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
 
 /* Adiciona o efeito de sombreamento quando o cursor passar sobre os posts */
 .post:hover {
