@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #4267B2;
+    background-color: #2e6eee;
     color: #fff;
     padding: 20px;
     display: flex;
@@ -40,11 +40,11 @@ nav a {
 }
 
 .post {
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: #16151a;
+    border: 1px solid #2e6eee;
     padding: 20px;
     margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona sombreamento leve */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 2); /* Adiciona sombreamento leve */
     transition: box-shadow 0.3s ease; /* Efeito de transição suave para sombra */
 }
 
