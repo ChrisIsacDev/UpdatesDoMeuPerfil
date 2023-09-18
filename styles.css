@@ -94,8 +94,8 @@ nav a {
 .post img {
     position: absolute;
     left: 0; /* Posiciona a imagem no canto esquerdo */
-    top: 0; /* Opcional: posiciona a imagem no canto superior */
-    width: auto; /* Largura da imagem */
+    top: 10px; /* Opcional: posiciona a imagem no canto superior */
+    width: 100px; /* Largura da imagem */
     height: auto; /* Mantém a proporção da imagem */
 }
 
