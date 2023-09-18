@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #29292c;
+    background-color: #ffffff;
 }
 
 p, h2 {
@@ -55,14 +55,15 @@ nav li {
 
 /* Adiciona uma animação de transição quando o mouse passa sobre os elementos li */
  .skills:hover {
-    background-color: #334b8c;
-    transform: scale(1.05);
+    background-color: #3175fd;
+    transform: scale(1.00);
 }
 
 
 nav a {
     text-decoration: none;
     color: #fff;
+    margin-top: 0%;
 }
 
 .profile-info img {
