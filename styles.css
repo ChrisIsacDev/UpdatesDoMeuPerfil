@@ -34,7 +34,7 @@ nav ul {
 }
 
 /* Estilização dos elementos li como botões retangulares */
-li {
+.skills {
     margin-right: 20px;
     background-color: #2e6eee;
     color: #fff;
@@ -45,7 +45,7 @@ li {
 }
 
 /* Adiciona uma animação de transição quando o mouse passa sobre os elementos li */
- li:hover {
+ .skills:hover {
     background-color: #334b8c;
     transform: scale(1.05);
 }
