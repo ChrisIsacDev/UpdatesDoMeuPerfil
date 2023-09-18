@@ -33,9 +33,23 @@ nav ul {
     display: flex;
 }
 
+/* Estilização dos elementos li como botões retangulares */
 nav li {
     margin-right: 20px;
+    background-color: #2e6eee;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
+
+/* Adiciona uma animação de transição quando o mouse passa sobre os elementos li */
+nav li:hover {
+    background-color: #334b8c;
+    transform: scale(1.05);
+}
+
 
 nav a {
     text-decoration: none;
