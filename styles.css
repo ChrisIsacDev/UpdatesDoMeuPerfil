@@ -5,9 +5,21 @@ body {
     background-color: #ffffff;
 }
 
-p, h2 {
+p, h1 {
     color: #fff;
 }
+
+h2 {
+    color: #2e6eee;
+    text-align: left;
+
+}
+
+h2:hover {
+    color: #1361ff;
+    transform: scale(1.05);
+}
+
 
 .profile-picture {
     align-content:end;
@@ -50,6 +62,7 @@ nav li {
 .skills {
     margin-right: 20px;
     margin-left: 20px;
+    max-width: 100px;
     background-color: #2e6eee;
     color: #fff;
     padding: 5px 10px;
