@@ -2,7 +2,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #DADDEE;
+}
+
+body::-webkit-scrollbar {
+    width: 0.5em; /* Largura da barra de rolagem */
+}
+
+body::-webkit-scrollbar-track {
+    background-color: transparent; /* Cor de fundo da barra de rolagem */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Cor do "ponteiro" da barra de rolagem */
 }
 
 p, h1 {
@@ -46,6 +58,7 @@ nav ul {
     list-style: none;
     padding: 0;
     display: flex;
+    justify-content: center;
 }
 
 nav li {
@@ -55,6 +68,7 @@ nav li {
 
 /* Estilização dos elementos li como botões retangulares */
 .skills {
+    display: flex;
     margin-right: 20px;
     margin-left: 20px;
     max-width: 250px;
@@ -94,7 +108,7 @@ nav a:hover {
     position: absolute;
     top: 20px; /* Espaço a partir do topo */
     right: 20px; /* Espaço a partir da direita */
-    text-align: right;
+    text-align: center;
 }
 
 .profile-info img {
@@ -109,8 +123,8 @@ nav a:hover {
 }
 
 .post {
-    background-color: #16151a;
-    border: 1px solid #2e6eee;
+    background-color: #DADDEE;
+    border: 1.5px solid #2e6eee;
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 2); /* Adiciona sombreamento leve */
