@@ -130,13 +130,6 @@ nav a:hover {
     transition: box-shadow 0.3s ease; /* Efeito de transição suave para sombra */
 }
 
-/* Estilização para alinhar uma imagem no canto esquerdo das categorias */
-.posts-container {
-    display:grid;
-    flex-wrap: wrap; /* Garante que as categorias possam quebrar para a próxima linha se necessário */
-}
-
-
 .post img {
     position: absolute;
     left: 0; /* Posiciona a imagem no canto esquerdo */
