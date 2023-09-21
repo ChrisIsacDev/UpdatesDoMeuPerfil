@@ -132,15 +132,10 @@ nav a:hover {
 
 /* Estilização para alinhar uma imagem no canto esquerdo das categorias */
 .posts-container {
-    display: flex;
+    display:grid;
     flex-wrap: wrap; /* Garante que as categorias possam quebrar para a próxima linha se necessário */
 }
 
-.post {
-    width: calc(33.33% - 20px); /* Define a largura das categorias e inclui espaçamento entre elas */
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
 
 .post img {
     position: absolute;
